@@ -1,5 +1,5 @@
+import React from 'react'
 import { useState } from 'react'
-import logo from './logo.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +15,7 @@ function App() {
           </button>
         </p>
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
+          Edit <code>App.jsx</code> and save to test HMR updates.
         </p>
         <p>
           <a
